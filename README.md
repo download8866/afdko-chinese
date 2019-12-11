@@ -60,9 +60,9 @@ with [pip](https://pip.pypa.io).
 Installing the **afdko** inside a virtual environment prevents conflicts
 between its dependencies and other modules installed globally.
 
-**Option 2**
+**选项 2**
 
-Install [afdko](https://pypi.python.org/pypi/afdko) globally:
+全局性安装 [afdko](https://pypi.python.org/pypi/afdko):
 
     pip install --user afdko
 
