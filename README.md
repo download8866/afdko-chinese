@@ -14,8 +14,7 @@
 Adobe Font Development Kit for OpenType (AFDKO)
 ===============================================
 
-The AFDKO is a set of tools for building OpenType font files from
-PostScript and TrueType font data.
+AFDKO是一组用于从 PostScript 和 TrueType 字体数据中设计OpenType字体文件的工具。
 
 This repository contains the data files, Python scripts, and sources for
 the command line programs that comprise the AFDKO. The project uses the
@@ -30,7 +29,7 @@ Please see the
 for additional information, such as links to reference materials and related
 projects.
 
-Installation
+安装设置
 ------------
 
 The AFDKO requires [Python](http://www.python.org/download) 3.6
@@ -40,11 +39,11 @@ Releases are available on the [Python Package
 Index](https://pypi.python.org/pypi/afdko) (PyPI) and can be installed
 with [pip](https://pip.pypa.io).
 
-### Installing
+### 安装
 
-**Option 1 (Recommended)**
+**选项 1 (推荐)**
 
-- Create a virtual environment:
+- 创建虚拟环境:
 
         python3 -m venv afdko_env
 
@@ -71,7 +70,7 @@ Install [afdko](https://pypi.python.org/pypi/afdko) globally:
 
     pip install --user afdko
 
-### Updating
+### 更新
 
 Use the `-U` (or `--upgrade`) option to update the afdko (and its
 dependencies) to the newest stable release:
@@ -82,28 +81,28 @@ To get pre-release and in-development versions, use the `--pre` flag:
 
     pip install -U afdko --pre
 
-### Uninstalling
+### 卸载
 
 To remove the afdko package use the command:
 
     pip uninstall afdko
 
-Build from source
+从源文件中编译
 -----------------
 
-First you must have installed the development tools for your platform.
+首先，您必须为您的平台安装了开发工具。
 
-On the Mac, install these with:
+在MacOS环境中，你需要在终端中执行以下命令:
 
     xcode-select --install
 
-On Linux (Ubuntu 17.10 LTS or later), install these with:
+在Linux (Ubuntu 17.10 LTS or later)环境中, 你需要在终端中执行以下命令:
 
     apt-get -y install python3.6
     apt-get -y install python-pip
     apt-get -y install python-dev
 
-On Windows, you need Visual Studio 2017.
+在Windows环境中, 你需要用到 Visual Studio 2017 软件.
 
 To build the **afdko** from source, clone the [afdko GitHub
 repository](https://github.com/adobe-type-tools/afdko), ensure the `wheel`
@@ -112,7 +111,7 @@ directory of the afdko, and run:
 
     pip install .
 
-**Note**
+**注意**
 
 It's not possible to install the afdko in editable/develop mode using
 `pip install -e .` ; this is because the toolkit includes binary C executables
@@ -124,7 +123,7 @@ feedback as they modify the source files) you can use alternative methods like
 exporting a PYTHONPATH, using a .pth file or similar hacks.
 For further details read [this comment](https://github.com/adobe-type-tools/afdko/pull/677#issuecomment-436747212).
 
-Major changes from version 2.5.x
+版本2.5.x的主要更改
 --------------------------------
 
 * The AFDKO has been restructured so that it can be installed as a Python
@@ -135,7 +134,7 @@ contains its own Python interpreter.
 code could not be open-sourced. These tools are available in [release version
 2.5.65322 and older](https://github.com/adobe-type-tools/afdko/releases?after=2.6.22).
 
-**Note**
+**注意**
 
 If you install the old AFDKO as well as the new PyPI afdko package, the tools from
 the newer version will take precedence over the older. This happens because pip
