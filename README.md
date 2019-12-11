@@ -16,24 +16,20 @@ Adobe Font Development Kit for OpenType (AFDKO)
 
 AFDKO是一组用于从 PostScript 和 TrueType 字体数据中设计OpenType字体文件的工具。
 
-This repository contains the data files, Python scripts, and sources for
-the command line programs that comprise the AFDKO. The project uses the
-[Apache 2.0 OpenSource license](LICENSE.md).
+这个存储库包含数据文件、Python脚本和组成AFDKO的命令行程序。项目使用
+[Apache 2.0开源许可证]（license.md）。
 
-Please refer to the
-[AFDKO Overview](https://adobe-type-tools.github.io/afdko/AFDKO-Overview.html)
-for a more detailed description of what is included in the package.
+请参考
+[AFDKO概述]（https://adobe-type-tools.github.io/AFDKO/AFDKO-Overview.html）
+有关包中包含的内容的更详细描述。
 
-Please see the
-[wiki](https://github.com/adobe-type-tools/afdko/wiki)
-for additional information, such as links to reference materials and related
-projects.
+有关其他信息，如参考资料和相关项目的链接，请参见[wiki](https://github.com/adobe-type-tools/afdko/wiki)。
 
 安装设置
 ------------
 
-The AFDKO requires [Python](http://www.python.org/download) 3.6
-or later.
+AFDKO需要[Python]（http://www.Python.org/download）3.6
+或者以后的版本。
 
 Releases are available on the [Python Package
 Index](https://pypi.python.org/pypi/afdko) (PyPI) and can be installed
